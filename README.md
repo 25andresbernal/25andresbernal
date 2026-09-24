@@ -37,8 +37,8 @@ real company can run on.
 
 ## Work
 
-Since January 2026 I've been Senior Manager, Applied AI at Savage
-Companies, where I own the AI product strategy and roadmap for a
+Currently I am at Savage Companies as a Sr. Manager, Applied AI, where I
+own the AI product strategy and roadmap for a
 multi-company operating group and turn its use-case backlog into shipped
 agentic systems. I shipped an agentic workflow that ingests operational
 and compliance data and drafts scored risk reports, cutting a risk

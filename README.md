@@ -36,23 +36,22 @@ real company can run on.
 ## Work
 
 Since January 2026 I've been Senior Manager, Applied AI at Savage
-Companies, where I own the AI product strategy and roadmap for a $100M
-operating group across four companies and turn its use-case backlog into
-shipped agentic systems. I shipped an agentic workflow that ingests
-operational and compliance data and drafts scored risk reports, cutting a
-risk analysis team's turnaround by roughly 80% across 7 teams, with the
-output quality criteria and evaluation sets defined before the build. I
-also built a self-serve data platform, with an LLM text-to-SQL layer so
+Companies, where I own the AI product strategy and roadmap for a
+multi-company operating group and turn its use-case backlog into shipped
+agentic systems. I shipped an agentic workflow that ingests operational
+and compliance data and drafts scored risk reports, cutting a risk
+analysis team's turnaround by roughly 80% across 7 teams, with the output
+quality criteria and evaluation sets defined before the build. I also
+built a self-serve data platform with an LLM text-to-SQL layer so
 non-technical users can ask questions in plain language, now used by 25+
 teams and saving roughly 70% of the time the manual process took.
 
 Before that, while working at Microsoft as a Product Manager on Azure AI
 Foundry's Cloud + AI team, I owned memory partitioning reliability work
-that raised VM density on existing hardware and reduced infrastructure
-cost of goods sold by 12%, analyzed 10M+ telemetry datapoints to
-prioritize scaling decisions, and led open model validation for the Llama
-and DeepSeek families, defining the evaluation criteria that informed
-which models the platform supported at general availability.
+that raised VM density on existing hardware, analyzed platform telemetry
+to prioritize scaling decisions, and led open model validation for the
+Llama and DeepSeek families, defining the evaluation criteria that
+informed which models the platform supported at general availability.
 
 I co-founded Closer AI, an AI voice sales agent platform. I designed the
 target architecture that moves off a wrapper telephony platform to direct
@@ -65,15 +64,14 @@ llm-finetuning-recipes.
 
 I also co-founded TriagePoint.AI, a Bayesian ML triage product that won
 Best in Medicine, and directed the Lassonde DevLab software incubator, a
-$10M-backed program running 20+ AI-first startup teams. I organized an
-MBA AI Product Hackathon with 100+ participants.
+$10M-backed program running 20+ AI-first startup teams, where I ran the
+program's AI product hackathon.
 
 Earlier I was Senior PM at GardaWorld across a consumer app and an
-enterprise B2B product, where I owned go-to-market for three launches
-including a partnership that grew B2B leads 10% and cut claims 17%, and I
-held product roles at Ground and Up (co-founder), Royal Anne, and Liberty
-Smart Home, for 7+ years of product management before I moved into
-AI-specific work.
+enterprise B2B product, owning go-to-market for three launches including
+an insurance partnership, and held product roles at Ground and Up
+(co-founder), Royal Anne, and Liberty Smart Home, for 7+ years of product
+management before I moved into AI-specific work.
 
 On the side, I'm building Mundo Quest, a Spanish-learning mobile app for
 kids ages 6 to 10.

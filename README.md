@@ -13,6 +13,7 @@ real company can run on.
 
 ## What I build
 
+- A complete AI phone agent product: inbound answering and booking, outbound campaigns, lead-source attribution, CRM sync, and a dashboard, running end to end with no API keys: [closer-ai](https://github.com/25andresbernal/closer-ai)
 - Voice agents that route Twilio SIP directly into OpenAI's Realtime API, skipping the wrapper platforms most telephony stacks add: [voice-agent-starter](https://github.com/25andresbernal/voice-agent-starter)
 - Evals and scorecards that give a PM a real definition of "good" for an agent, not just a demo: [agent-evals](https://github.com/25andresbernal/agent-evals)
 - Strategy and governance playbooks for rolling out AI assistants across a real company: [enterprise-ai-playbook](https://github.com/25andresbernal/enterprise-ai-playbook)
@@ -24,6 +25,7 @@ real company can run on.
 
 | Project | What it does | Stack | Links |
 |---|---|---|---|
+| closer-ai | The full Closer AI product rebuilt as a runnable platform: a voice agent that answers, qualifies, and books, outbound callback campaigns with do-not-call enforcement, attribution from what callers say, and projections, with a React dashboard and a live call simulator. | Python, FastAPI, React, OpenAI Realtime, Twilio SIP, ChromaDB | [Repo](https://github.com/25andresbernal/closer-ai) |
 | voice-agent-starter | Routes a phone call straight from Twilio's SIP trunk into OpenAI's Realtime API, cutting the telephony wrapper and separate speech-to-text and text-to-speech hops most voice agent stacks carry. | Python, Twilio SIP, OpenAI Realtime API | [Repo](https://github.com/25andresbernal/voice-agent-starter) |
 | agent-evals | Gives a PM a scorecard and CLI to prove an agent works, not just watch it demo well. | Python, CLI, LLM-as-judge | [Repo](https://github.com/25andresbernal/agent-evals) |
 | enterprise-ai-playbook | Lays out the strategy and governance a company needs to roll out an AI assistant ecosystem people actually trust and use. | Markdown, frameworks and templates | [Repo](https://github.com/25andresbernal/enterprise-ai-playbook) |
@@ -52,8 +54,9 @@ to prioritize scaling decisions, and led open model validation for the
 Llama and DeepSeek families, defining the evaluation criteria that
 informed which models the platform supported at general availability.
 
-I co-founded Closer AI, an AI voice sales agent platform. I designed the
-target architecture that moves off a wrapper telephony platform to direct
+I co-founded Closer AI, an AI voice sales agent platform, and rebuilt the
+product end to end in [closer-ai](https://github.com/25andresbernal/closer-ai).
+I designed the target architecture that moves off a wrapper telephony platform to direct
 SIP from Twilio into OpenAI's Realtime API, removing two hops from the
 call path, and built the reference implementation in voice-agent-starter.
 For our first client I built the RAG pipeline on ChromaDB with BAAI

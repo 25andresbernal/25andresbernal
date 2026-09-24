@@ -1,36 +1,15 @@
-<!--
-Opening paragraph variants for Andre to choose from. Variant A is in place below.
-Swap in Variant B by replacing the paragraph under the positioning line.
-
-Variant A (in place):
-I'm a Manager of Applied AI at Savage Companies, where I set AI product
-strategy and build the agentic systems that come out of it. Outside of
-work I build voice agents, retrieval pipelines, and the eval frameworks
-that tell you whether an agent is actually good. I'm most interested in
-the layer between a working model and a system an enterprise can trust
-and adopt.
-
-Variant B:
-I'm an AI Product Manager who ships. My day job is Manager, Applied AI
-at Savage Companies, where I lead AI product strategy and the agentic
-workflows that put it into practice. My own time goes into voice agents,
-RAG systems, fine-tuning pipelines, and the evals that keep all of it
-honest. I care most about the gap between a model demo and a system a
-real company can run on.
--->
-
 # Andre Bernal
 
 **AI Product Manager who builds. Agentic systems, voice agents, RAG, evals, and the strategy to ship them inside real companies.**
 
-I'm a Manager of Applied AI at Savage Companies, where I set AI product
-strategy and build the agentic systems that come out of it. Outside of
-work I build voice agents, retrieval pipelines, and the eval frameworks
-that tell you whether an agent is actually good. I'm most interested in
-the layer between a working model and a system an enterprise can trust
-and adopt.
+I'm an AI Product Manager who ships. My day job is Senior Manager, Applied AI
+at Savage Companies, where I own AI product strategy and the agentic
+workflows that put it into practice. My own time goes into voice agents,
+RAG systems, fine-tuning pipelines, and the evals that keep all of it
+honest. I care most about the gap between a model demo and a system a
+real company can run on.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-VERIFY--LINKEDIN--URL-0A66C2?style=flat)](VERIFY-LINKEDIN-URL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-andrebernall-0A66C2?style=flat)](https://www.linkedin.com/in/andrebernall)
 [![Email](https://img.shields.io/badge/Email-25andresbernal%40gmail.com-D14836?style=flat)](mailto:25andresbernal@gmail.com)
 
 ## What I build
@@ -56,43 +35,53 @@ and adopt.
 
 ## Work
 
-Since January 2026 I've been Manager, Applied AI at Savage Companies,
-where I set AI product strategy and build the agentic systems that come
-out of it. I shipped an agentic workflow that cut a risk analysis team's
-turnaround time by [VERIFY: roughly 86%, or describe qualitatively]
-across [VERIFY: 8] teams, and I built a data compilation and analysis
-platform now used by [VERIFY: 15+] teams that saves roughly [VERIFY: 70%]
-of the time the manual process took.
+Since January 2026 I've been Senior Manager, Applied AI at Savage
+Companies, where I own the AI product strategy and roadmap for a $100M
+operating group across four companies and turn its use-case backlog into
+shipped agentic systems. I shipped an agentic workflow that ingests
+operational and compliance data and drafts scored risk reports, cutting a
+risk analysis team's turnaround by roughly 80% across 7 teams, with the
+output quality criteria and evaluation sets defined before the build. I
+also built a self-serve data platform, with an LLM text-to-SQL layer so
+non-technical users can ask questions in plain language, now used by 25+
+teams and saving roughly 70% of the time the manual process took.
 
 Before that, while working at Microsoft as a Product Manager on Azure AI
-Foundry's Cloud + AI team, I led open model validation for Llama and
-DeepSeek, drove reliability work on memory partitioning, and ran cost of
-goods sold analysis for the team's model offerings.
+Foundry's Cloud + AI team, I owned memory partitioning reliability work
+that raised VM density on existing hardware and reduced infrastructure
+cost of goods sold by 12%, analyzed 10M+ telemetry datapoints to
+prioritize scaling decisions, and led open model validation for the Llama
+and DeepSeek families, defining the evaluation criteria that informed
+which models the platform supported at general availability.
 
-I co-founded Closer AI, an AI voice sales agent platform. We moved off a
-wrapper telephony platform to direct SIP from Twilio into OpenAI's
-Realtime API, removing two hops from the call path [VERIFY: confirm this
-migration shipped]. I built the RAG
-pipeline for our first client on ChromaDB with BAAI embeddings, and
-fine-tuned Llama-3-8B with Unsloth QLoRA on GCP to match our sales team's
-voice and objection handling on live calls.
+I co-founded Closer AI, an AI voice sales agent platform. I designed the
+target architecture that moves off a wrapper telephony platform to direct
+SIP from Twilio into OpenAI's Realtime API, removing two hops from the
+call path, and built the reference implementation in voice-agent-starter.
+For our first client I built the RAG pipeline on ChromaDB with BAAI
+embeddings and fine-tuned Llama-3-8B with Unsloth QLoRA on GCP for live
+sales conversations, which taught me most of what is in
+llm-finetuning-recipes.
 
 I also co-founded TriagePoint.AI, a Bayesian ML triage product that won
 Best in Medicine, and directed the Lassonde DevLab software incubator, a
 $10M-backed program running 20+ AI-first startup teams. I organized an
 MBA AI Product Hackathon with 100+ participants.
 
-Earlier in my career I was Senior PM at GardaWorld across a consumer app
-and an enterprise B2B product, plus product roles at Liberty Smart Home
-and Royal Anne, totaling 7+ years of product management before I moved
-into AI-specific work.
+Earlier I was Senior PM at GardaWorld across a consumer app and an
+enterprise B2B product, where I owned go-to-market for three launches
+including a partnership that grew B2B leads 10% and cut claims 17%, and I
+held product roles at Ground and Up (co-founder), Royal Anne, and Liberty
+Smart Home, for 7+ years of product management before I moved into
+AI-specific work.
 
 On the side, I'm building Mundo Quest, a Spanish-learning mobile app for
 kids ages 6 to 10.
 
-I completed an MBA and an MS in Computer Information Science at the
-University of Utah in May 2026, with a capstone on data trust and AI
-readiness for an enterprise AI rollout.
+I hold an MBA and an MS in Computer Information Science from the
+University of Utah, with a capstone on data trust and AI readiness for an
+enterprise AI rollout and graduate research on multimodal AI for
+real-time voice agents.
 
 ## Get in touch
 

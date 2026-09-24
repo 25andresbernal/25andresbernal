@@ -32,6 +32,7 @@ real company can run on.
 | claude-skills | Packages recurring PM work (PRDs, interview synthesis, eval rubrics, launch checklists) as Claude Skills a team can install directly. | Claude Skills, Markdown | [Repo](https://github.com/25andresbernal/claude-skills) |
 | product-feedback-mcp | Gives an agent direct tools to search, cluster, and triage product feedback instead of pasting it into a chat window. | Python, MCP | [Repo](https://github.com/25andresbernal/product-feedback-mcp) |
 | rag-starter | Shows the real progression of a retrieval system, from a simple chain to hybrid search, on top of ChromaDB and BAAI embeddings. | Python, ChromaDB, BAAI embeddings | [Repo](https://github.com/25andresbernal/rag-starter) |
+| self-healing-browser-agent | Turns an English description of a web journey into a Playwright run that generates ranked selectors and heals broken steps from the live page instead of failing. | Python, Playwright, Claude | [Repo](https://github.com/25andresbernal/self-healing-browser-agent) |
 | llm-finetuning-recipes | Walks through fine-tuning Llama-3-8B with Unsloth QLoRA, including the failure modes found across five real training iterations. | Python, Unsloth, QLoRA, Llama-3-8B | [Repo](https://github.com/25andresbernal/llm-finetuning-recipes) |
 
 ## Work

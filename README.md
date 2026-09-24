@@ -38,7 +38,7 @@ and adopt.
 - Voice agents that route Twilio SIP directly into OpenAI's Realtime API, skipping the wrapper platforms most telephony stacks add: [voice-agent-starter](https://github.com/25andresbernal/voice-agent-starter)
 - Evals and scorecards that give a PM a real definition of "good" for an agent, not just a demo: [agent-evals](https://github.com/25andresbernal/agent-evals)
 - Strategy and governance playbooks for rolling out AI assistants across a real company: [enterprise-ai-playbook](https://github.com/25andresbernal/enterprise-ai-playbook)
-- Claude Skills that turn recurring PM work, PRDs, interview synthesis, eval rubrics, into repeatable tools: [claude-skills](https://github.com/25andresbernal/claude-skills)
+- Claude Skills that package recurring PM work (PRDs, interview synthesis, eval rubrics) as installable tools: [claude-skills](https://github.com/25andresbernal/claude-skills)
 - MCP servers that put real product data, not just a model, in an agent's hands: [product-feedback-mcp](https://github.com/25andresbernal/product-feedback-mcp)
 - RAG systems that progress from a simple chain to hybrid search as the problem demands it: [rag-starter](https://github.com/25andresbernal/rag-starter)
 
@@ -49,7 +49,7 @@ and adopt.
 | voice-agent-starter | Routes a phone call straight from Twilio's SIP trunk into OpenAI's Realtime API, cutting the telephony wrapper and separate speech-to-text and text-to-speech hops most voice agent stacks carry. | Python, Twilio SIP, OpenAI Realtime API | [Repo](https://github.com/25andresbernal/voice-agent-starter) |
 | agent-evals | Gives a PM a scorecard and CLI to prove an agent works, not just watch it demo well. | Python, CLI, LLM-as-judge | [Repo](https://github.com/25andresbernal/agent-evals) |
 | enterprise-ai-playbook | Lays out the strategy and governance a company needs to roll out an AI assistant ecosystem people actually trust and use. | Markdown, frameworks and templates | [Repo](https://github.com/25andresbernal/enterprise-ai-playbook) |
-| claude-skills | Packages recurring PM work, PRDs, interview synthesis, eval rubrics, launch checklists, as Claude Skills a team can install directly. | Claude Skills, Markdown | [Repo](https://github.com/25andresbernal/claude-skills) |
+| claude-skills | Packages recurring PM work (PRDs, interview synthesis, eval rubrics, launch checklists) as Claude Skills a team can install directly. | Claude Skills, Markdown | [Repo](https://github.com/25andresbernal/claude-skills) |
 | product-feedback-mcp | Gives an agent direct tools to search, cluster, and triage product feedback instead of pasting it into a chat window. | Python, MCP | [Repo](https://github.com/25andresbernal/product-feedback-mcp) |
 | rag-starter | Shows the real progression of a retrieval system, from a simple chain to hybrid search, on top of ChromaDB and BAAI embeddings. | Python, ChromaDB, BAAI embeddings | [Repo](https://github.com/25andresbernal/rag-starter) |
 | llm-finetuning-recipes | Walks through fine-tuning Llama-3-8B with Unsloth QLoRA, including the failure modes found across five real training iterations. | Python, Unsloth, QLoRA, Llama-3-8B | [Repo](https://github.com/25andresbernal/llm-finetuning-recipes) |
@@ -67,11 +67,12 @@ of the time the manual process took.
 Before that, while working at Microsoft as a Product Manager on Azure AI
 Foundry's Cloud + AI team, I led open model validation for Llama and
 DeepSeek, drove reliability work on memory partitioning, and ran cost of
-goods sold analysis that shaped how the team priced new model offerings.
+goods sold analysis for the team's model offerings.
 
-I co-founded Closer AI, an AI voice sales agent platform. [VERIFY: confirm
-we replaced a wrapper telephony platform with direct SIP from Twilio into
-OpenAI's Realtime API], removing hops from the call path. I built the RAG
+I co-founded Closer AI, an AI voice sales agent platform. We moved off a
+wrapper telephony platform to direct SIP from Twilio into OpenAI's
+Realtime API, removing two hops from the call path [VERIFY: confirm this
+migration shipped]. I built the RAG
 pipeline for our first client on ChromaDB with BAAI embeddings, and
 fine-tuned Llama-3-8B with Unsloth QLoRA on GCP to match our sales team's
 voice and objection handling on live calls.
@@ -79,9 +80,7 @@ voice and objection handling on live calls.
 I also co-founded TriagePoint.AI, a Bayesian ML triage product that won
 Best in Medicine, and directed the Lassonde DevLab software incubator, a
 $10M-backed program running 20+ AI-first startup teams. I organized an
-MBA AI Product Hackathon that drew 100+ participants, giving student
-founders a structured way to turn an idea into a working prototype in a
-weekend.
+MBA AI Product Hackathon with 100+ participants.
 
 Earlier in my career I was Senior PM at GardaWorld across a consumer app
 and an enterprise B2B product, plus product roles at Liberty Smart Home
@@ -91,9 +90,9 @@ into AI-specific work.
 On the side, I'm building Mundo Quest, a Spanish-learning mobile app for
 kids ages 6 to 10.
 
-I'm finishing an MBA and MS in Computer Information Science at the
+I completed an MBA and an MS in Computer Information Science at the
 University of Utah in May 2026, with a capstone on data trust and AI
-readiness for enterprise rollouts.
+readiness for an enterprise AI rollout.
 
 ## Get in touch
 

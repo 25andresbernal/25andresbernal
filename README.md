@@ -2,9 +2,8 @@
 
 **AI Product Manager who builds. Agentic systems, voice agents, RAG, evals, and the strategy to ship them inside real companies.**
 
-I'm an AI Product Manager who ships. My day job is Senior Manager, Applied AI
-at Savage Companies, where I own AI product strategy and the agentic
-workflows that put it into practice. My own time goes into voice agents,
+I'm an AI Product Manager who ships. Currently at Savage Companies as a Sr Manager, Applied AI, where I own AI product strategy and the agentic
+workflows that put it into practice. I also work on voice agents,
 RAG systems, fine-tuning pipelines, and the evals that keep all of it
 honest. I care most about the gap between a model demo and a system a
 real company can run on.

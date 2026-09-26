@@ -14,6 +14,7 @@ real company can run on.
 ## What I build
 
 - A complete AI phone agent product: inbound answering and booking, outbound campaigns, lead-source attribution, CRM sync, and a dashboard, running end to end with no API keys: [closer-ai](https://github.com/25andresbernal/closer-ai)
+- Semantic models that make a warehouse legible to LLMs, with compilers to Snowflake semantic views and Open Semantic Interchange, an MCP server over governed metrics, and an eval that measures the accuracy gain: [semantic-model-kit](https://github.com/25andresbernal/semantic-model-kit)
 - Voice agents that route Twilio SIP directly into OpenAI's Realtime API, skipping the wrapper platforms most telephony stacks add: [voice-agent-starter](https://github.com/25andresbernal/voice-agent-starter)
 - Evals and scorecards that give a PM a real definition of "good" for an agent, not just a demo: [agent-evals](https://github.com/25andresbernal/agent-evals)
 - Strategy and governance playbooks for rolling out AI assistants across a real company: [enterprise-ai-playbook](https://github.com/25andresbernal/enterprise-ai-playbook)
@@ -26,6 +27,7 @@ real company can run on.
 | Project | What it does | Stack | Links |
 |---|---|---|---|
 | closer-ai | The full Closer AI product rebuilt as a runnable platform: a voice agent that answers, qualifies, and books, outbound callback campaigns with do-not-call enforcement, attribution from what callers say, and projections, with a React dashboard and a live call simulator. | Python, FastAPI, React, OpenAI Realtime, Twilio SIP, ChromaDB | [Repo](https://github.com/25andresbernal/closer-ai) |
+| semantic-model-kit | Adds governed business context (entities, preferred joins, certified metrics, synonyms, verified questions) to a warehouse schema so LLM agents answer correctly, and proves the difference with a three-mode eval. | Python, DuckDB, Snowflake semantic views, Apache Ossie, dbt MetricFlow, MCP | [Repo](https://github.com/25andresbernal/semantic-model-kit) |
 | voice-agent-starter | Routes a phone call straight from Twilio's SIP trunk into OpenAI's Realtime API, cutting the telephony wrapper and separate speech-to-text and text-to-speech hops most voice agent stacks carry. | Python, Twilio SIP, OpenAI Realtime API | [Repo](https://github.com/25andresbernal/voice-agent-starter) |
 | agent-evals | Gives a PM a scorecard and CLI to prove an agent works, not just watch it demo well. | Python, CLI, LLM-as-judge | [Repo](https://github.com/25andresbernal/agent-evals) |
 | enterprise-ai-playbook | Lays out the strategy and governance a company needs to roll out an AI assistant ecosystem people actually trust and use. | Markdown, frameworks and templates | [Repo](https://github.com/25andresbernal/enterprise-ai-playbook) |
@@ -46,7 +48,7 @@ analysis team's turnaround by roughly 80% across 7 teams, with the output
 quality criteria and evaluation sets defined before the build. I also
 built a self-serve data platform with an LLM text-to-SQL layer so
 non-technical users can ask questions in plain language, now used by 25+
-teams and saving roughly 70% of the time the manual process took.
+teams and saving roughly 70% of the time the manual process took. My current focus is semantic modeling: adding governed business context to the warehouse so LLM agents answer from certified definitions, which is the work behind semantic-model-kit.
 
 Before that, while working at Microsoft as a Product Manager on Azure AI
 Foundry's Cloud + AI team, I owned memory partitioning reliability work

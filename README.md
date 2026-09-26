@@ -2,8 +2,8 @@
 
 **Product manager who builds. Agentic systems, semantic data models, evals, and the strategy to ship them inside real companies.**
 
-I'm a product manager who ships. Currently at Savage Companies as a Sr.
-Manager, Applied AI, where I own AI product strategy and the agentic
+I'm a product manager who ships. Currently at Savage Companies as a Sr. Product Manager,
+Applied AI, where I own AI product strategy and the agentic
 workflows that put it into practice. On the side I build the things I
 want to understand from the inside: a semantic modeling kit for LLMs on
 warehouse data, an AI phone agent, a language game for kids, and the
@@ -42,7 +42,7 @@ model demo and a system a real company can run on.
 
 ## Work
 
-Currently I am at Savage Companies as a Sr. Manager, Applied AI, where I
+Currently I am at Savage Companies as a Sr. Product Manager, Applied AI, where I
 own the AI product strategy and roadmap for a multi-company operating
 group and turn its use-case backlog into shipped agentic systems. I
 shipped an agentic workflow that ingests operational and compliance data

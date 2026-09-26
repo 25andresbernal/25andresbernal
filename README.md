@@ -1,87 +1,38 @@
 # Andre Bernal
 
-**Sr. Product Manager building Agentic systems, semantic data models, and the strategy to ship them.**
+**Sr. Product Manager building agentic systems, semantic data models, and the strategy to ship them.**
 
-Currently at Savage Companies as a Sr. Product Manager,
-Applied AI, where I own AI product strategy and the agentic
-workflows that put it into practice.
+Currently at Savage Companies as a Sr. Product Manager, Applied AI, where I own AI product strategy and the agentic workflows that put it into practice.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-andrebernall-0A66C2?style=flat)](https://www.linkedin.com/in/andrebernall)
 [![Email](https://img.shields.io/badge/Email-25andresbernal%40gmail.com-D14836?style=flat)](mailto:25andresbernal@gmail.com)
 
 ## What I build
 
-- Semantic models that make a warehouse legible to LLMs, with compilers to Snowflake semantic views and Open Semantic Interchange, an MCP server over governed metrics, and an eval that measures the accuracy gain: [semantic-model-kit](https://github.com/25andresbernal/semantic-model-kit)
-- Evals and scorecards that give a PM a real definition of "good" for an agent, not just a demo: [agent-evals](https://github.com/25andresbernal/agent-evals)
-- Strategy and governance playbooks for rolling out AI assistants across a real company: [enterprise-ai-playbook](https://github.com/25andresbernal/enterprise-ai-playbook)
-- An AI phone agent for small businesses: answering, booking, outbound follow-up, lead attribution, and a dashboard, running end to end with no API keys: [closer-ai](https://github.com/25andresbernal/closer-ai)
-- A Spanish-learning game for kids ages 5 to 10, with lessons that earn play time and a Claude-voiced mascot: [papaya](https://github.com/25andresbernal/papaya)
-- MCP servers that put real product data, not just a model, in an agent's hands: [product-feedback-mcp](https://github.com/25andresbernal/product-feedback-mcp)
-- Claude Skills that package recurring PM work (PRDs, interview synthesis, eval rubrics) as installable tools: [claude-skills](https://github.com/25andresbernal/claude-skills)
-- RAG systems that progress from a simple chain to hybrid search as the problem demands it: [rag-starter](https://github.com/25andresbernal/rag-starter)
+| Project | What it does | Stack |
+|---|---|---|
+| [semantic-model-kit](https://github.com/25andresbernal/semantic-model-kit) | Governed business context for a warehouse so LLM agents answer correctly. Compiles to Snowflake semantic views, Open Semantic Interchange, and dbt MetricFlow; serves metrics over MCP; measures the accuracy gain with a three-mode eval. | Python, DuckDB, MCP |
+| [closer-ai](https://github.com/25andresbernal/closer-ai) | An AI phone agent for small businesses: answers, books, follows up, attributes every lead, and reports. Runs end to end with no API keys. | Python, FastAPI, React, OpenAI Realtime, Twilio |
+| [agent-evals](https://github.com/25andresbernal/agent-evals) | A PM-authored scorecard and CLI that prove an agent works, not just that it demos well. | Python, LLM-as-judge |
+| [enterprise-ai-playbook](https://github.com/25andresbernal/enterprise-ai-playbook) | The strategy and governance artifacts a company needs to roll out AI assistants people trust and use. | Markdown |
+| [papaya](https://github.com/25andresbernal/papaya) | A Spanish-learning game for kids ages 5 to 10. Lessons earn play time; a Claude-voiced mascot is optional. | TypeScript, React, Vercel |
+| [product-feedback-mcp](https://github.com/25andresbernal/product-feedback-mcp) | An MCP server that lets an agent search, cluster, and triage product feedback against real data. | Python, MCP |
+| [rag-starter](https://github.com/25andresbernal/rag-starter) | Retrieval from a simple chain to hybrid search, with an eval set that shows when each wins. | Python, ChromaDB |
 
-## Featured work
-
-| Project | What it does | Stack | Links |
-|---|---|---|---|
-| semantic-model-kit | Adds governed business context (entities, preferred joins, certified metrics, synonyms, verified questions) to a warehouse schema so LLM agents answer correctly, and proves the difference with a three-mode eval. | Python, DuckDB, Snowflake semantic views, Apache Ossie, dbt MetricFlow, MCP | [Repo](https://github.com/25andresbernal/semantic-model-kit) |
-| closer-ai | A phone-first revenue platform for small businesses: a voice agent that answers and books, outbound callbacks with do-not-call enforcement, attribution from what callers say, and a dashboard with a live call simulator. | Python, FastAPI, React, OpenAI Realtime, Twilio | [Repo](https://github.com/25andresbernal/closer-ai) |
-| papaya | A game where kids learn household Spanish: 50 short lessons, six exercise types, spoken words for pre-readers, collectible buddies and mini-games unlocked by learning, and an optional Claude mascot. | TypeScript, React, Vite, Vercel functions, Claude | [Repo](https://github.com/25andresbernal/papaya) |
-| agent-evals | Gives a PM a scorecard and CLI to prove an agent works, not just watch it demo well. | Python, CLI, LLM-as-judge | [Repo](https://github.com/25andresbernal/agent-evals) |
-| enterprise-ai-playbook | Lays out the strategy and governance a company needs to roll out an AI assistant ecosystem people actually trust and use. | Markdown, frameworks and templates | [Repo](https://github.com/25andresbernal/enterprise-ai-playbook) |
-| product-feedback-mcp | Gives an agent direct tools to search, cluster, and triage product feedback instead of pasting it into a chat window. | Python, MCP | [Repo](https://github.com/25andresbernal/product-feedback-mcp) |
-| rag-starter | Shows the real progression of a retrieval system, from a simple chain to hybrid search, on top of ChromaDB and BAAI embeddings. | Python, ChromaDB, BAAI embeddings | [Repo](https://github.com/25andresbernal/rag-starter) |
-| claude-skills | Packages recurring PM work (PRDs, interview synthesis, eval rubrics, launch checklists) as Claude Skills a team can install directly. | Claude Skills, Markdown | [Repo](https://github.com/25andresbernal/claude-skills) |
-| self-healing-browser-agent | Turns an English description of a web journey into a Playwright run that generates ranked selectors and heals broken steps from the live page instead of failing. | Python, Playwright, Claude | [Repo](https://github.com/25andresbernal/self-healing-browser-agent) |
-| voice-agent-starter | A reference voice agent that routes a call from Twilio's SIP trunk straight into OpenAI's Realtime API, with tool calling, transcripts, and a call-quality scorecard. | Python, Twilio SIP, OpenAI Realtime API | [Repo](https://github.com/25andresbernal/voice-agent-starter) |
-| llm-finetuning-recipes | Walks through fine-tuning Llama-3-8B with Unsloth QLoRA, including the failure modes found across five real training iterations. | Python, Unsloth, QLoRA, Llama-3-8B | [Repo](https://github.com/25andresbernal/llm-finetuning-recipes) |
+Also: [claude-skills](https://github.com/25andresbernal/claude-skills), [self-healing-browser-agent](https://github.com/25andresbernal/self-healing-browser-agent), [voice-agent-starter](https://github.com/25andresbernal/voice-agent-starter), [llm-finetuning-recipes](https://github.com/25andresbernal/llm-finetuning-recipes).
 
 ## Work
 
-Currently I am at Savage Companies as a Sr. Product Manager, Applied AI, where I
-own the AI product strategy and roadmap for a multi-company operating
-group and turn its use-case backlog into shipped agentic systems. I
-shipped an agentic workflow that ingests operational and compliance data
-and drafts scored risk reports, cutting a risk analysis team's turnaround
-by roughly 80% across 7 teams, with the output quality criteria and
-evaluation sets defined before the build. I also built a self-serve data
-platform with an LLM text-to-SQL layer so non-technical users can ask
-questions in plain language, now used by 25+ teams and saving roughly 70%
-of the time the manual process took. My current focus is semantic
-modeling: adding governed business context to the warehouse so LLM agents
-answer from certified definitions, which is the work behind
-semantic-model-kit.
+**Savage Companies**, Sr. Product Manager, Applied AI. Own the AI product strategy and roadmap for a multi-company operating group. Shipped an agentic risk-reporting workflow that cut turnaround roughly 80% across 7 teams, and a self-serve data platform with text-to-SQL now used by 25+ teams at roughly 70% time savings. Current focus: semantic modeling so agents answer from certified definitions.
 
-Before that, while working at Microsoft as a Product Manager on Azure AI
-Foundry's Cloud + AI team, I owned memory partitioning reliability work
-that raised VM density on existing hardware, analyzed platform telemetry
-to prioritize scaling decisions, and led open model validation for the
-Llama and DeepSeek families, defining the evaluation criteria that
-informed which models the platform supported at general availability.
+**Microsoft**, while working as a Product Manager on Azure AI Foundry. Owned memory partitioning reliability, prioritized scaling decisions from platform telemetry, and led open model validation for the Llama and DeepSeek families ahead of general availability.
 
-I co-founded Closer AI, an AI voice sales agent platform, where I built
-the retrieval pipeline and fine-tuned Llama-3-8B for live sales calls,
-then designed the move to direct SIP into a realtime speech model; the
-product is rebuilt end to end in closer-ai. I also co-founded
-TriagePoint.AI, a Bayesian ML triage product that won Best in Medicine,
-and directed the Lassonde DevLab software incubator, a $10M-backed program
-running 20+ AI-first startup teams, where I ran the program's AI product
-hackathon.
+**Closer AI**, co-founder. Built the retrieval pipeline and fine-tuned Llama-3-8B for live sales calls, then designed the move to direct SIP into a realtime speech model. **TriagePoint.AI**, co-founder, a Bayesian ML triage product that won Best in Medicine. Directed the **Lassonde DevLab** incubator, 20+ AI-first startup teams.
 
-Earlier I was Senior PM at GardaWorld across a consumer app and an
-enterprise B2B product, owning go-to-market for three launches including
-an insurance partnership, and held product roles at Ground and Up
-(co-founder), Royal Anne, and Liberty Smart Home, for 7+ years of product
-management before I moved into AI-specific work.
+**Earlier**: Senior PM at GardaWorld across a consumer app and an enterprise B2B product; product roles at Ground and Up (co-founder), Royal Anne, and Liberty Smart Home. 7+ years of product management.
 
-On the side, I built Papaya, a Spanish-learning game for kids ages 5 to
-10 who have a Spanish-speaking parent and an English-speaking home.
-
-I hold an MBA and an MS in Computer Information Science from the
-University of Utah, with a capstone on data trust and AI readiness for an
-enterprise AI rollout and graduate research on multimodal AI for
-real-time voice agents.
+MBA and MS in Computer Information Science, University of Utah.
 
 ## Get in touch
 
-I'm always happy to talk about agents, evals, data products, or enterprise AI adoption; reach me on LinkedIn or by email above.
+Happy to talk about agents, evals, data products, or enterprise AI adoption. LinkedIn or email above.

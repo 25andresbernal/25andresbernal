@@ -1,14 +1,10 @@
 # Andre Bernal
 
-**Product manager who builds. Agentic systems, semantic data models, evals, and the strategy to ship them inside real companies.**
+**Sr. Product Manager building Agentic systems, semantic data models, and the strategy to ship them.**
 
-I'm a product manager who ships. Currently at Savage Companies as a Sr. Product Manager,
+Currently at Savage Companies as a Sr. Product Manager,
 Applied AI, where I own AI product strategy and the agentic
-workflows that put it into practice. On the side I build the things I
-want to understand from the inside: a semantic modeling kit for LLMs on
-warehouse data, an AI phone agent, a language game for kids, and the
-evals that keep all of it honest. I care most about the gap between a
-model demo and a system a real company can run on.
+workflows that put it into practice.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-andrebernall-0A66C2?style=flat)](https://www.linkedin.com/in/andrebernall)
 [![Email](https://img.shields.io/badge/Email-25andresbernal%40gmail.com-D14836?style=flat)](mailto:25andresbernal@gmail.com)

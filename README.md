@@ -2,7 +2,6 @@
 
 **Sr. Product Manager building agentic systems, semantic data models, and the strategy to ship them.**
 
-Currently at Savage Companies as a Sr. Product Manager, Applied AI, where I own AI product strategy and the agentic workflows that put it into practice.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-andrebernall-0A66C2?style=flat)](https://www.linkedin.com/in/andrebernall)
 [![Email](https://img.shields.io/badge/Email-25andresbernal%40gmail.com-D14836?style=flat)](mailto:25andresbernal@gmail.com)

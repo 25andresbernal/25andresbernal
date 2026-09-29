@@ -1,6 +1,6 @@
 # Andre Bernal
 
-**Sr. Product Manager building agentic systems, semantic data models, and the strategy to ship them.**
+**Sr. AI PM building agentic systems, semantic data models, and the strategy to ship them.**
 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-andrebernall-0A66C2?style=flat)](https://www.linkedin.com/in/andrebernall)

@@ -1,4 +1,4 @@
-# Andre Bernal
+# Andres Bernal
 
 **Sr. AI PM building agentic systems, semantic data models, and the strategy to ship them.**
 
